@@ -5,7 +5,7 @@
     <meta name="description" content="Lab 2 HTML Practice" />
     <meta name="author" content="Max Chen" />
     <title>Meeting Minutes Practice Lab 2</title>
-    <link rel="icon" type="image/x-icon" href="/screenshots/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./screenshots/favicon.ico">
   </head>
   <body>
     <header>
@@ -85,17 +85,71 @@
 
       <section>
         <p><b>Pictures Shared During Meeting:</b></p>
-        <img src="screenshots/meme picture for meeting notes.png" alt="Meme 1">
-        <img src="screenshots/meme picture for meeting notes_2.png" alt="Meme 2">
+        <img src="./screenshots/meme picture for meeting notes.png" alt="Meme 1">
+        <img src="./screenshots/meme picture for meeting notes_2.png" alt="Meme 2">
       </section>
 
       <hr>
 
       <section>
         <p><b>Audio and Video Recordings</b></p>
+
+        <details>
+          <summary>Audio Recording</summary>
+          <audio controls>
+          <source src="./screenshots/audio for lab 2.wav" type="audio/wav">
+        </audio>
+        </details>
+
+        <details>
+          <summary>Video Recording</summary>
+        <video width="280" height="320" controls>
+          <source src="./screenshots/video for lab_2.mp4" type="video/mp4">
+        </video>
+        </details>
+
       </section>
     </main>
 
+    <hr>
+
+    <p><b>Fill out this random form!</b></p>
+
+    <form>
+      <fieldset>
+        <legend>Different Inputs</legend>
+        <label for="tinput">Text Input:</label>
+        <input type="text" id="tinput" name="tinput"><br><br>
+        <label for="cbinput">Checkbox Input:</label>
+        <input type="checkbox" id="cbinput" name="cbinput"><br><br>
+        <label for="rinput">Radio Input:</label>
+        <input type="radio" id="rinput" name="rinput"><br><br>
+        <label for="dinput">Date Input:</label>
+        <input type="date" id="dinput" name="dinput"><br><br> 
+        <p><label for="bigtbox">Text Area Input:</label></p>
+        <textarea id="bigtbox" name="bigtbox" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit"><br><br>
+        <label for="dlist">Datalist Input:</label>
+        <input list="dlist" name="dlist" id="dlist">
+        <datalist id="dlist">
+          <option value="One">One</option>
+          <option value="Two">Two</option>
+          <option value="Three">Three</option>
+          <option value="Four">Four</option>
+        </datalist><br><br>
+        <label for="dropdown">Dropdown Menu:</label>
+        <select name="dropdown" id="dropdown">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+        </select><br><br>
+        <button type="button">Submit?</button>
+      </fieldset>
+
+      <hr>
+
+    </form>
     <footer>
       <p>Author: Maximillian Chen</p>
       <nav>
