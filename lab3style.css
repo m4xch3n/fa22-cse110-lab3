@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+  }
+  
+  p {
+    color: #5232a8;
+    text-align: left;
+  } 
+
+  hr {
+    color: rgb(0, 0, 0)
+  }
+
+  li {
+    color:hsl(234, 87%, 25%)
+  }
+  
